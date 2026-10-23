@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "LoginPage",
+            "request": "launch",
+            "mainClass": "tripmate.LoginPage",
+            "classPaths": [
+                "$Auto",
+                "${workspaceFolder}/lib/mysql-connector-j-9.4.0.jar"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Launch TripMate Sign Up",
+            "request": "launch",
+            "mainClass": "tripmate.SignUpPage",
+            "classPaths": [
+                "$Auto",
+                "${workspaceFolder}/lib/mysql-connector-j-9.4.0.jar"
+            ]
+        }
+    ]
+}

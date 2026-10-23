@@ -1,0 +1,27 @@
+{
+    "code-runner.executorMap": {
+        "java": "cd /d \"$workspaceRoot\" && javac -cp \"lib/mysql-connector-j-9.4.0.jar\" -d . *.java && java -cp \".;lib/mysql-connector-j-9.4.0.jar\" tripmate.$fileNameWithoutExt"
+    },
+    "java.project.referencedLibraries": [
+        "lib/mysql-connector-j-9.4.0.jar"
+    ],
+    "terminal.integrated.env.windows": {
+        "PATH": "C:\\Program Files\\Git\\cmd;${env:PATH}"
+    },
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3303,
+            "driver": "MySQL",
+            "name": "MYSQL local",
+            "database": "tripmate_db",
+            "username": "root"
+        }
+    ]
+}
